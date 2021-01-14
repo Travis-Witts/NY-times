@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> New York Article Search</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="jumbotron">
+        <h1 class="display-5">New York Times Search</h1>
+    </header>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="card col-8">
+                <div class="card-header">
+                    Search Parameter
+                </div>
+                <div class="card-body form-group">
+                    <label for="searchTerm">Search Term:</label>
+                    <input type="text" class="form-control" id="searchTerm">
+                    <label for="NumberOfRecords">Number of Records to Retrieve:</label>
+                    <input type="text" class="form-control" id="records">
+                    <label for="startYear">Start Year (Optional)</label>
+                    <input type="text" class="form-control" id="start-year">
+                    <label for="endYear">End Year (Optional)</label>
+                    <input type="text" class="form-control" id="end-year">
+
+                    <button id="Search">Search</button>
+                    <button id="Clear">Clear Results</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="card col-8">
+                <div class="card-header">
+                    Top Article 
+                </div>
+
+                <div id=articles class="card-body">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
